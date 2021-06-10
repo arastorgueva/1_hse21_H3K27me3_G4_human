@@ -27,6 +27,11 @@
 - визуализация в геномном браузере:
 ![image](https://user-images.githubusercontent.com/84495736/121482742-16f0db80-c9d6-11eb-8e75-2acde6540f6e.png)
 
+- Пики гистоновой метки H3K27me3 относительно аннотированных генов:
+ENCFF801AHF ![chip_seeker H3K27me3_K562 ENCFF801AHF hg19 filtered plotAnnoPie](https://user-images.githubusercontent.com/84495736/121536581-dd3ac780-ca0b-11eb-8256-0a6fde8d0b7e.png)
+ENCFF881ONN ![chip_seeker H3K27me3_K562 ENCFF881ONN hg19 filtered plotAnnoPie](https://user-images.githubusercontent.com/84495736/121536716-fb082c80-ca0b-11eb-8d99-ef545dee7f40.png)
+
+
 - обединила файлы для обоих стрендов и получила файл G4_seq_Li_KPDS_merged с перечислением участков ДНК, где располагается вторичная структура G4_seq_Li_KPDS. Число таких участков - 1285463
 ![image](https://user-images.githubusercontent.com/84495736/121494709-a64fbc00-c9e1-11eb-86ea-7b879b88be92.png)
 
