@@ -9,6 +9,7 @@ source('lib.R')
  BiocManager::install('clusterProfiler')
  #BiocManager::install('EnsDb.Hsapiens.v75')
  BiocManager::install('ChIPpeakAnno')
+ BiocManager::install("org.Hs.eg.db")
 # BiocManager::install("TxDb.Mmusculus.UCSC.mm10.knownGene")
 
 
@@ -20,19 +21,19 @@ source('lib.R')
 #install.packages('TxDb.Hsapiens.UCSC.hg19.knownGene', lib = "C:/Users/admin/Documents/R/win-library/4.1/")
 #install.packages('clusterProfiler', lib = "C:/Users/admin/Documents/R/win-library/4.1/")
 
-require("ChIPseeker", lib.loc="C:/Users/admin/Documents/R/win-library/4.1/")
-require(TxDb.Hsapiens.UCSC.hg19.knownGene)
-#txdb <- TxDb.Hsapiens.UCSC.hg19.knownGene
+
+library(ChIPseeker)
+library(TxDb.Hsapiens.UCSC.hg19.knownGene)
 #library(TxDb.Mmusculus.UCSC.mm10.knownGene)
-require(clusterProfiler)
+library(clusterProfiler)
+library(org.Hs.eg.db)
 
 ###
 
-#NAME <- 'H3K27me3_K562.intersect_with_G4'
-#NAME <- 'G4'
-#NAME <- 'H3K27me3_K562.intersect_with_G4'
-NAME <- 'H3K27me3_K562.ENCFF801AHF.hg19.filtered'
+#NAME <- 'H3K27me3_K562.ENCFF801AHF.hg19.filtered'
 #NAME <- 'H3K27me3_K562.ENCFF881ONN.hg19.filtered'
+NAME <- 'G4_seq_Li_KPDS_merged'
+
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 
 ###
