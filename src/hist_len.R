@@ -8,6 +8,9 @@ source('lib.R')
 #NAME <- "H3K27me3_K562.ENCFF881ONN.hg19"
 #NAME <- "H3K27me3_K562.ENCFF881ONN.hg38"
 
+#NAME <- 'G4_seq_Li_KPDS_merged'
+#NAME <- 'H3K27me3_K562.intersect_with_G4_seq_Li_KPDS'
+
 
 bed_df <- read.delim(paste0(DATA_DIR, NAME, '.bed'), as.is = TRUE, header = FALSE)
 colnames(bed_df) <- c('chrom', 'start', 'end')
