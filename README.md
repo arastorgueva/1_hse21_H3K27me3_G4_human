@@ -28,5 +28,4 @@
 ![image](https://user-images.githubusercontent.com/84495736/121482742-16f0db80-c9d6-11eb-8e75-2acde6540f6e.png)
 
 - обединила файлы для обоих стрендов и получила файл G4_seq_Li_KPDS_merged с перечислением участков ДНК, где располагается вторичная структура G4_seq_Li_KPDS. Число таких участков - 1285463
-![image](https://user-images.githubusercontent.com/84495736/121490195-77374b80-c9dd-11eb-9880-7f0f573ffd67.png)
-![image](https://user-images.githubusercontent.com/84495736/121490122-68509900-c9dd-11eb-932e-04f917a601aa.png)
+![image](https://user-images.githubusercontent.com/84495736/121494709-a64fbc00-c9e1-11eb-86ea-7b879b88be92.png)
