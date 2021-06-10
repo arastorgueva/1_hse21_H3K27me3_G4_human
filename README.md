@@ -29,3 +29,7 @@
 
 - обединила файлы для обоих стрендов и получила файл G4_seq_Li_KPDS_merged с перечислением участков ДНК, где располагается вторичная структура G4_seq_Li_KPDS. Число таких участков - 1285463
 ![image](https://user-images.githubusercontent.com/84495736/121494709-a64fbc00-c9e1-11eb-86ea-7b879b88be92.png)
+
+- распределение длин пересечений гистоновой метки и G4_seq_Li_KPDS:
+(число пересчений 178949)
+![image](https://user-images.githubusercontent.com/84495736/121495766-8e2c6c80-c9e2-11eb-9df2-7b6cea286e48.png)
