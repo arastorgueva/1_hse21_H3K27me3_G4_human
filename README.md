@@ -14,12 +14,10 @@
 -- ENCFF881ONN.hg38: 69322
 ![image](https://user-images.githubusercontent.com/84495736/121469617-7b576f00-c9c5-11eb-93d6-bb661dbc472d.png)
 
-Фильтрация пиков была необходима только в файле экперимента ENCFF801AHF. Граница длины пика - 31000 - исходя из максимальной длины пиков в исходном hg38-файле
+В обоих файла hg19 были выброшены пики длиной более 5000 (конвенциональное значение, предложенное на семинаре).
+Число пиков после фильтрации:
 
-H3K27me3_K562.ENCFF801AHF.hg19:
-![image](https://user-images.githubusercontent.com/84495736/121470340-be661200-c9c6-11eb-8b92-e77c7a688160.png)
-H3K27me3_K562.ENCFF801AHF.hg38:
-![image](https://user-images.githubusercontent.com/84495736/121470371-cb830100-c9c6-11eb-922b-6bb5ecf1e104.png)
-
-Число пиков ENCFF801AHF.hg19 после удаления выброса: 144751
-![image](https://user-images.githubusercontent.com/84495736/121470664-392f2d00-c9c7-11eb-9de2-e80e92b33456.png)
+-- ENCFF801AHF.hg19: 143802
+![image](https://user-images.githubusercontent.com/84495736/121472568-08042c00-c9ca-11eb-8dc1-64b9a0c5e343.png)
+-- ENCFF881ONN.hg19: 69150 (не изменилось)
+![image](https://user-images.githubusercontent.com/84495736/121472640-20744680-c9ca-11eb-941a-8e4f43731203.png)
