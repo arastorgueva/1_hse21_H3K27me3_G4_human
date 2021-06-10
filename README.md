@@ -52,5 +52,11 @@ ENCFF881ONN ![chip_seeker H3K27me3_K562 ENCFF881ONN hg19 filtered plotAnnoPie](h
 ![image](https://user-images.githubusercontent.com/84495736/121526986-9a282680-ca02-11eb-9943-dd7790f3528d.png)
 
 - Ассоциация полученных пересечений с генами
+
 Число пиков, проассоциированных с генами: 9313
 Число уникальных генов: 3768
+
+
+GO-анализ:
+![image](https://user-images.githubusercontent.com/84495736/121544034-124a1880-ca12-11eb-9c3f-8fe8f38fd29d.png)
+
