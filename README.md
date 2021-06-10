@@ -39,6 +39,8 @@ ENCFF881ONN ![chip_seeker H3K27me3_K562 ENCFF881ONN hg19 filtered plotAnnoPie](h
 (число пересчений 178949)
 ![image](https://user-images.githubusercontent.com/84495736/121495766-8e2c6c80-c9e2-11eb-9df2-7b6cea286e48.png)
 
+- Пайчарт: расположение участков G4_seq_Li_KPDS аннотированных генов![chip_seeker G4_seq_Li_KPDS_merged plotAnnoPie](https://user-images.githubusercontent.com/84495736/121537865-fb54f780-ca0c-11eb-884d-8de0b66132ec.png)
+
 
 Ссылка на сессию в геномном браузере: http://genome.ucsc.edu/s/airastorgueva/hse21_H3K27me3_G4_human
 
