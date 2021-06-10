@@ -59,4 +59,10 @@ ENCFF881ONN ![chip_seeker H3K27me3_K562 ENCFF881ONN hg19 filtered plotAnnoPie](h
 
 GO-анализ:
 ![image](https://user-images.githubusercontent.com/84495736/121544034-124a1880-ca12-11eb-9c3f-8fe8f38fd29d.png)
-
+FDR (false discovery rate) - последний столбец в файле-выдаче (сортировка по увеличению) ![image](https://user-images.githubusercontent.com/84495736/121550578-876c1c80-ca17-11eb-8f7a-42029f1bd8a4.png)
+Наиболее значимые категории по FRD:
+- system development (GO:0048731) (FRD 2.13E-55)
+- anatomical structure development (GO:0048856) (FRD 2.65E-52)
+- developmental process (GO:0032502) (FRD 1.94E-47)
+- animal organ development (GO:0048513) (FRD 4.20E-42)
+- cell differentiation (GO:0030154) (FRD 2.29E-41)
