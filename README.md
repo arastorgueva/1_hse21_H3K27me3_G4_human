@@ -3,6 +3,7 @@
 - с помощью lifover привела их в 19 сборке генома человека
 - скачала десктопное приложение github и сделала локальную копирию репозитория себе на компьютер
 - пострила гистограммы длин Chip-seq пиков (где пики - наличие интересующей нас гистонной метки)
+
 Число пиков в файлах Chip-seq экспериментов (до выброса неожидаемо длинный пиков):
 -- ENCFF801AHF.hg19: 144752
 ![image](https://user-images.githubusercontent.com/84495736/121469434-261b5d80-c9c5-11eb-89a1-95d50552367f.png)
@@ -12,3 +13,13 @@
 ![image](https://user-images.githubusercontent.com/84495736/121469567-62e75480-c9c5-11eb-8f7d-af556f0b4a68.png)
 -- ENCFF881ONN.hg38: 69322
 ![image](https://user-images.githubusercontent.com/84495736/121469617-7b576f00-c9c5-11eb-93d6-bb661dbc472d.png)
+
+Фильтрация пиков была необходима только в файле экперимента ENCFF801AHF. Граница длины пика - 31000 - исходя из максимальной длины пиков в исходном hg38-файле
+
+H3K27me3_K562.ENCFF801AHF.hg19:
+![image](https://user-images.githubusercontent.com/84495736/121470340-be661200-c9c6-11eb-8b92-e77c7a688160.png)
+H3K27me3_K562.ENCFF801AHF.hg38:
+![image](https://user-images.githubusercontent.com/84495736/121470371-cb830100-c9c6-11eb-922b-6bb5ecf1e104.png)
+
+Число пиков ENCFF801AHF.hg19 после удаления выброса: 144751
+![image](https://user-images.githubusercontent.com/84495736/121470664-392f2d00-c9c7-11eb-9de2-e80e92b33456.png)
