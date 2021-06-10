@@ -3,7 +3,8 @@ setwd('C:/Users/admin/Desktop/3-4_module/bioinf_epigen/GitHub/1_hse21_H3K27me3_G
 
 source('lib.R')
 
-NAME <- "H3K27me3_K562.ENCFF801AHF.hg19"
+#NAME <- "H3K27me3_K562.ENCFF801AHF.hg19"
+NAME <- "H3K27me3_K562.ENCFF881ONN.hg19"
 
 ###
 
@@ -17,12 +18,12 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('filter_peaks.', NAME, '.init.hist.pdf'), path = OUT_DIR)
+#ggsave(paste0('filter_peaks.', NAME, '.init.hist.pdf'), path = OUT_DIR)
 
 # Remove long peaks
 bed_df <- bed_df %>%
   arrange(-len) %>%
-  filter(len < 31000)
+  filter(len < 5000)
 
 ggplot(bed_df) +
   aes(x = len) +
