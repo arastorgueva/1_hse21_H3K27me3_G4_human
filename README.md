@@ -21,3 +21,7 @@
 ![image](https://user-images.githubusercontent.com/84495736/121472568-08042c00-c9ca-11eb-8dc1-64b9a0c5e343.png)
 -- ENCFF881ONN.hg19: 69150 (не изменилось)
 ![image](https://user-images.githubusercontent.com/84495736/121472640-20744680-c9ca-11eb-941a-8e4f43731203.png)
+
+
+- объединила два набора отфильтрованных ChIP-seq пиков и получила файл H3K27me3_K562.merge.hg19
+- 
