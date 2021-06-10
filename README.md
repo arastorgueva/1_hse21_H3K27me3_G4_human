@@ -24,4 +24,5 @@
 
 
 - объединила два набора отфильтрованных ChIP-seq пиков и получила файл H3K27me3_K562.merge.hg19
-- 
+- визуализация в геномном браузере:
+![image](https://user-images.githubusercontent.com/84495736/121482742-16f0db80-c9d6-11eb-8e75-2acde6540f6e.png)
